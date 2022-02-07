@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+  /* harizantal navigation nar*/
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+          
+          body{
+            /* go to uigradient wesite and choose your colors*/
+            background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+          }
+          div {
+  border: 1px solid gray;
+  padding: 8px;
+}
+h1{
+  color: red;
+  
+}
+/* text formating*/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: pink;
+  text-decoration: underline;
+  /*text shadow*/
+  text-shadow: 2px 2px 
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  /* text capitalize*/
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+} 
+/*img in right side*/
+img {
+
+  float: right;
+
+  
+} 
+/*before heading smily gif*/
+h4::before {
+  content: url(smily.gif);
+  
+
+}
+/* after heading smily gif8*/
+h5::after {
+  content: url(smily.gif);
+  
+
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+ </style>
+        <link rel="stylesheet" href="styles.css">
+        </head>
+    <body>
+      <h1 style="text-align: center;" style="color: red;">CSS WEBPAGE</h1>
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">About</a>
+        <a href="#news">Gallary</a>
+        
+        
+        <div class="dropdown">
+          <button class="dropbtn">Courses 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          
+          
+          <div class="dropdown-content">
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">JAVA</a>
+            <div class="dropdown"></div>
+            <button class="dropbtn">JAVA 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">J2EE</a>
+              <a href="#">SQL</a>
+              
+              
+  
+              
+            </div>
+            </div>
+            
+          </div>
+        </div> 
+      </div>
+
+      
+      
+      <img src="logo3.png" alt="Paris" width="100%" height="300"><br>
+      <div class="bottom-left">Bottom Left</div>
+      <div>
+        <h2>text formatting</h2>
+        <p style="color: white;">This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
+        The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored
+        <a target="_blank" href="tryit.asp?filename=trycss_text">"Try it Yourself"</a> link.</p>
+      </div><br>
+      
+      
+      <b style="color: white;" style="text-align: center;">The opacity Property</b>
+
+<p style="opacity: 0.5;" style="color: pink;">The following div element's opacity is 0.5. Note that both the text and the background-color are affected by the opacity level:</p>
+
+<div style="color: pink;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit...</div>
+
+      <h1 style="text-align: center;"> CSS float </h1>
+      <p style="color: white;"><img src="logo4.jpg" alt="float property" style="width:170px;height:170px;margin-left:15px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p><br><br>
+      
+        <p  style="text-color:white;" >CSS Pseudo-elements</p>
+        <h4>This is a heading</h4>
+
+        <h5>This is a heading</h5>
+      <h3>TYPE OF CSS</h3>
+      
+        <p><a href="inline.html" style="color: black;">Inline CSS</a></p>
+        <p><a href="internal.html" style="color: black;">Internal CSS</a></p>
+        <p><a href="external.html" style="color: black;">External CSS</a></p>
+        
+        
+
+        
+    
+      <p><a href="table.html" style="color: yellow;">Tables</a></p>
+          
+
+    
+
+
+
+       
+        <p><a href="csslinks.html" style="color: yellow;">CSS LINKS</a></p>
+        <p><a href="float.html">CSS Float</a></p>
+        <p><a href="boxmodel.html">Box Model</a></p>
+        <p><a href="shadow.html">CSS Shadow</a></p>
+        <p><a href="text.html">CSS TEXT</a></p>
+        <p><a href="clear.html">CSS Clear</a></p>
+        <p><a href="font.html">CSS <font></font></a></p>
+        <p><a href="font.html">CSS <font></font></a></p>
+        
+        
+
+    </body>
+</html>
