@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <script type = "text/javascript">
+            
+               function sayHello()
+                {
+                  alert("Hello DLithe")
+               }
+function hi() 
+            {
+        alert('Hi Dlithe!');
+      } 
+      
+var a = 22;
+var b = 225;
+var c = 220;
+function changeBackground()
+
+{
+//var x = document.getElementById('bg');
+bg.style.backgroundColor = 'rgb('+a+', '+b+', '+c+')';
+//bg.style.backgroundColor='rgb(255,0,78)';
+}
+
+function hov() {
+var e = document.getElementById('hover');
+//e.style.display = 'none';
+e.style.height='100px';
+hover.style.backgroundColor='red';
+
+}
+function highlightInput()
+{
+    var e = document.getElementById('focus');
+            e.style.backgroundColor = 'yellow';
+        } 
+    
+function myFunction() {
+  document.body.style.backgroundColor = "#f3f3f3";
+  document.body.style.backgroundImage = "url('logo9.jpg')";
+}
+ 
+
+         </script>   
+    </head>
+<h1 style="text-align:center">EVENTS</h1>
+<button type="button" onclick="myFunction()">Set background image</button>
+
+    
+    <body onload="window.alert('Page is loaded successfully');">
+        
+        
+             <div onmouseover = "over()">
+      </div> 
+      <h1>onclick</h1> 
+      <button onclick="this.innerHTML = Date()">The time is?</button>  
+      <br>
+      <br>
+      <button onclick="hi()" >Hello</button>  
+      <br>  
+        <form>
+            <input type = "button" onclick = "sayHello()" value = "Say Hello" />
+            <h1>onkeyup</h1>
+<hr>
+            <input id="bg" onkeyup="changeBackground()"
+placeholder="write something" style="color:white">
+<hr><br>
+<h1>onkeypress</h1>
+<input type="text" onkeypress="alert('You have pressed a key inside text input!')" placeholder="text input">
+<br>
+<textarea onkeypress="alert('You have pressed a key inside textarea!')" placeholder="textarea"></textarea>
+<br>
+<h1>onfocus</h1>
+<input id="focus" type="text" onfocus="highlightInput()">
+<br>
+<h1>onchange</h1>
+<select onchange="alert('You have changed the selection!');">
+    <option>Select</option>
+    <option>HTML</option>
+    <option>CSS</option>
+    <option>Bootstrap</option>
+    <option>JavaScript</option>
+</select>
+            
+         </form>
+         <hr>
+         
+
+<hr>
+<div id="hover" onmouseover="hov()"
+style="background-color:rgb(61, 240, 225);height:400px;width:400px;">
+<hr>
+
+                
+    </body>
+</html>
