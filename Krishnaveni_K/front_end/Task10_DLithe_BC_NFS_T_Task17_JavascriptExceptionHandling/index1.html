@@ -1,12 +1,9 @@
-
+<!DOCTYPE html>
 <html>
 <body>
-
 <h2>JavaScript String Methods</h2>
 <p>Convert string to upper case:</p>
-
 <button onclick="myFunction()">Try it</button>
-
 <p id="demo">Hello World!</p>
 
 <script>
@@ -18,13 +15,13 @@ function myFunction() {
 
 
 </script>
-<p>Age difference</p>
+<p>date difference</p>
 <p> This is an example of getting the difference between two dates using JavaScript. </p>
         
 <script>
 
 var d1 = new Date("10/02/1969"); 
-var d2 = new Date("11/03/2022"); 
+var d2 = new Date(""); 
 var diff = d2.getTime() - d1.getTime(); 
 
 var daydiff = (diff / 31536000000).toFixed(0);   
@@ -40,46 +37,24 @@ document.write(" Total numbers of years since <b> 9th feb 2022 </b> is: <b> " + 
 <script>
     try
     {
-        
         var a=10;
-        
-    }
+         }
     catch(ex)
     {
-        document.getElementById("errorMessage").innerHTML = ex;
+     document.getElementById("errorMessage").innerHTML = ex;
     }
     finally
     {
      document.getElementById("message").innerHTML = "finally block executed"+ a;
     }
-</script>
-<hr>
-<p id="errorMessage1"></p>
 
-<script>
-    try
-    {
-        throw {
-            number: 404,
-            message: "Page not found"
-        };
-    }
-    catch(ex)
-    {
-        document.getElementById("errorMessage1").innerHTML = ex.number + "- " + ex.message;
-    }
 
 </script>
 <hr>
 <script type="text/javascript">
-
-    // An runtime error here 
+ 
     window.printme(); 
-
-     // Here the semicolon after the printing statement
-  //  is missing and it is a syntax error
-  window.print() 
-
+     window.print() 
 </script>
 <hr>
 
@@ -110,10 +85,6 @@ finally
 }
 
 </script>
-
-
-
-
 
 </body>
 </html>
