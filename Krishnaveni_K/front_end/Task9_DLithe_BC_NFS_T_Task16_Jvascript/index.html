@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <script type = "text/javascript">
@@ -39,12 +40,22 @@ function myFunction() {
   document.body.style.backgroundColor = "#f3f3f3";
   document.body.style.backgroundImage = "url('logo9.jpg')";
 }
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
  
 
          </script>   
     </head>
 <h1 style="text-align:center">EVENTS</h1>
 <button type="button" onclick="myFunction()">Set background image</button>
+<p><a href="arraymethods.html" style="color: black;">arraymethods</a></p>
 
     
     <body onload="window.alert('Page is loaded successfully');">
@@ -88,8 +99,12 @@ placeholder="write something" style="color:white">
 
 <hr>
 <div id="hover" onmouseover="hov()"
-style="background-color:rgb(61, 240, 225);height:400px;width:400px;">
-<hr>
+style="background-color:rgb(61, 240, 70);height:400px;width:400px;"><br><br>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="smily.gif" alt="Smiley" width="32" height="32">
+
+<p>The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
 
                 
     </body>

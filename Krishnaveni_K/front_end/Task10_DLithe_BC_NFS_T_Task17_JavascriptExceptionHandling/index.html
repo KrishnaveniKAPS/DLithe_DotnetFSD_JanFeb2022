@@ -1,0 +1,81 @@
+
+<html>
+    <body>
+        <script>
+                const letters = ['a', 'b', 'c'];
+
+const alphaNumeric = letters.concat(1, 2, 3);
+
+document.write(alphaNumeric);
+
+            </script>
+        
+        <p>The slice() method returns selected elements in an array, as a new array.
+
+            slice() selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+            
+            slice() does not change the original array.</p>
+            <script>
+                 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+                 
+  var a = fruits.slice(-3, -1);
+  document.write(a);
+  document.writeln("<br/>"); 
+  var b = fruits.slice(1, 4);
+  document.write(b);
+            </script>
+<hr>
+<p>The sort() method sorts an array alphabetically</p>
+<script>
+    var arr = [2, 5, 8, 1, 4]
+document.write(arr.sort());
+document.write(arr);
+</script>
+<hr>
+<p>The filter() method creates a new array with all elements that pass the test implemented by the provided function.</p>
+<script>
+var words = ['Vishal', 'Naveen', 'Aakash', 'Lalith', 'Riju', 'Aakass Elango'];
+
+var result = words.filter(word => word.length == 6);
+
+document.write(result);
+</script>
+</script>  
+<hr>
+<script>  
+    var date=new Date();  
+    var day=date.getDate();  
+    var month=date.getMonth()+1;  
+    var year=date.getFullYear();  
+    document.write("<br>Date is: "+day+"/"+month+"/"+year);  
+    </script>  
+    <hr>
+    <script>  
+        var s1="JavaScript toUpperCase Example";  
+        var s2=s1.toUpperCase();  
+        document.write(s2);  
+</script>  
+<hr>
+
+<script>  
+    var str="javascript";  
+    document.write(str.charAt(7));  
+    </script> 
+    <hr>
+
+    
+    <script>  
+        var s1="javascript ";  
+        var s2="concat example";  
+        var s3=s1.concat(s2);  
+        document.write(s3);  
+        </script> 
+        <hr>
+
+
+<p><a href="index1.html" style="color: black;">string</a></p>
+
+
+</body>
+
+</html>
