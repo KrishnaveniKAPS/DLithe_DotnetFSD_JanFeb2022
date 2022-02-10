@@ -1,0 +1,31 @@
+body{
+    font-size: 22px;
+}
+
+#start_part{
+  padding-top: 50px;
+}
+
+.container-fluid{
+  top:0;
+  position: sticky;
+}
+
+.carousel-inner{
+  border-radius: 15px;
+}
+.card {
+  border-radius: 15px;
+  transition: transform .7s; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+}
+
+.table .table-bordered .table-hover{
+  border-radius: 15px;
+}
