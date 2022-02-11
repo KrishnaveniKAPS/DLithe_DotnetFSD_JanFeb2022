@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<script>//abstract class
+ function Student()
+{
+	this.Name="Name";
+	throw new Error("You cannot create an instance of Abstract Class");
+}
+Student.prototype.print=function()
+{
+	return "Student is: "+this.Name;
+}
+function KG(Name)
+{
+	this.Name=Name;
+}
+KG.prototype=Object.create(Student.prototype);
+var kg=new KG("john");
+document.writeln(kg.print());
+ 
+ 
+ </script>
+ <hr>
+ <p id="demo1">
+ <script>//Encapsulation
+    class Employee {
+      constructor(id,name){
+        this.id=id;
+      this.name=name;
+    
+    }
+        get employeeName(){
+          return this.name;
+          
+        }
+        
+        set employeeName(name){
+          this.name=name;
+        }
+       }
+   employee=new Employee(10, "john");
+      document.getElementById("demo1").innerHTML = employee.employeeName;
+
+      Employee.employeeName = "krish";
+      document.getElementById("demo1").innerHTML = employee.employeeName;
+    </script>
+     </p>
+  <hr>
+
+<script>
+  
+  class display {
+ disp(A, B) {
+  document.write("2 arguments" + "<br>" + A + "<br>" + B);
+  }
+  disp(A, B, C) {
+ document.write("3 Arguments"+ "<br>" + A + "<br>" + B + "<br>" + C); }
+                }
+                var d = new display();
+                d.disp(4, 3);
+                d.disp(4, 3, 2);
+            </script>
+    <script>
+                
+  function displaySum() {
+  // if no argument        
+  if (arguments.length == 0) {
+    console.log('No argument is passed.');
+  }
+
+  // if only one argument 
+  else if (arguments.length == 1) {
+    console.log('You have to pass at least two arugments to perform addition.');
+  }
+
+  // multiple arguments
+  else {
+    let sum = 0;
+    let length = arguments.length;
+    for (var i = 0; i < length; i++) {
+      sum = sum + arguments[i];
+    }
+    console.log("Sum is " + sum);
+  }
+}
+
+displaySum(); 
+</script>
+<hr>
+
+<script>
+  //Creating a constructor function
+   function Vehicle()
+  {
+      this.vehicleName="vehicleName";
+      throw new Error("You cannot create an instance of Abstract Class");
+  }
+
+Vehicle.prototype.display=function()
+  {
+      return "Vehicle is: "+this.vehicleName;
+  }
+ //Creating a constructor function
+  function Car(vehicleName)
+  {
+      this.vehicleName=vehicleName;
+  }
+  //Creating object without using the function constructor
+  Car.prototype=Object.create(Vehicle.prototype);
+
+  var car=new Car("BMW");
+  document.writeln(car.display());
+  
+</script>   
+<hr>
+<script>//polymorphism overriden
+ var math = function () {}
+ math.prototype.select = function()
+  {
+     return "OPERATIONS"
+  }
+var add = function() {}
+//  overridden display new string 
+  add.prototype = Object.create(math.prototype);
+  add.prototype.select = function()           
+   {                                                        
+     return "Add";
+  }
+ var sub = function() {}
+ //overridden display new string
+  sub.prototype = Object.create(math.prototype); 
+  sub.prototype.select = function()                              
+  {
+     return "Sub";
+  }
+var mul = function() {}
+//  parent property
+
+sub.prototype = Object.create(math.prototype); 
+  sub.prototype.select = function()                              
+  {
+    return "Mul";
+  }
+  var mul = function() {}
+
+ mul.prototype = Object.create(math.prototype);  
+ var maths = [new math(), new add(), new sub(), new mul()];
+ maths.forEach(function(math)
+  {
+   document.write(math.select());
+   document.write("</br>");
+  });
+</script> 
+
+</body>
+</html>
