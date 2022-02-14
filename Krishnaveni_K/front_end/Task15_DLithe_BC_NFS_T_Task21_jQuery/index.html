@@ -14,7 +14,7 @@
 	<div id="container">
 		<h1 id="heading1">Heading One</h1>
 
-        <p id="para1">jQuery selectors allow you to select and manipulate HTML element(s).jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.</p>
+        <p id="para1"><spam>jQuery selectors allow you to select and manipulate HTML element(s).jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.</spam></p>
 
 		<h1 class="heading2">Heading Two</h1>
 		<p class="para2">jQuery selectors allow you to select and manipulate HTML element(s).jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.</p>
@@ -42,7 +42,7 @@
 		//$('h1#heading1').hide();
 		//$('.heading2').hide();
 
-		//$('p ').css('color', 'red');
+		$('p ').css('color', 'red');
 
 		$('ul#list li:first').css('color', 'red');
 		$('ul#list li:last').css('color', 'green');
@@ -150,17 +150,19 @@
 	</script>
     <header>
 		<h1>jQuery - Chaining</h1>
-        </header>
-        <p id="p1">jQuery is fun!!</p>
-
-<button>Click me</button>
-
+        <p class="p2">Hello World!</p>
+    <button type="button" class="start">Start Chaining</button>
+    <button type="button" class="reset">Reset</button>
+</header>
     <script>
         $(document).ready(function(){
-          $("button").click(function(){
-            $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
-          });
-        });
+            $(".start").click(function(){
+                $("p").animate({width: "100%"}).animate({fontSize: "46px"}).animate({borderWidth: 30});
+            });
+            $(".reset").click(function(){
+                $("p").removeAttr("style");
+            });
+        });  
         </script>
         
 </body>
