@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery </title>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+    
+     <header>
+		<h1>jQuery Selectors</h1>
+	</header>
+	<div id="container">
+		<h1 id="heading1">Heading One</h1>
+
+        <p id="para1">jQuery selectors allow you to select and manipulate HTML element(s).jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.</p>
+
+		<h1 class="heading2">Heading Two</h1>
+		<p class="para2">jQuery selectors allow you to select and manipulate HTML element(s).jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.</p>
+
+		<ul id="list">
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+		</ul>
+
+		<input type="button" value="Button 1">
+		<input type="submit" value="Submit">
+		<input type="text">
+
+		<a href="http://google.com">Google</a>
+		<a href="http://yahoo.com">Yahoo</a>
+	</div>
+    
+    <script>
+		//$('h1').hide();
+		//$('h1#heading1').hide();
+		//$('.heading2').hide();
+
+		//$('p ').css('color', 'red');
+
+		$('ul#list li:first').css('color', 'red');
+		$('ul#list li:last').css('color', 'green');
+		$('ul#list li:even').css('background-color', 'block');
+		$('ul#list li:odd').css('background-color', '#cccccc');
+		$('ul#list li:nth-child(3n)').css('list-style', 'none');
+		$(':text').hide();
+		$('[href]').css('color', 'red');
+		$('a[href="http://yahoo.com"]').css('color', 'green');
+		//$('*').hide();
+	</script>
+
+	<header>
+		<h1>jQuery Effects & Animate</h1>
+	</header>
+	<div id="container">
+		<button id="btnFadeOut">Fade Out</button>
+		<button id="btnFadeIn">Fade In</button>
+		<button id="btnFadeTog">Fade Toggle</button>
+
+		<hr>
+
+		<button id="btnSlideUp">Slide Up</button>
+		<button id="btnSlideDown">SlideDown</button>
+		<button id="btnSlideTog">Slide Toggle</button>
+		<button id="btnStop">Stop</button>
+		<hr>
+
+		<div id="box"><h1>Hello World</h1></div>
+
+		<hr>
+
+		<button id="moveLeft">Move Left</button>
+		<button id="moveRight">Move Right</button>
+		<button id="moveAround">Move Around</button>
+		<div id="box2"></div>
+	</div>
+
+	<script>
+    //Jquery animation Fading
+    //fade out
+		$(document).ready(function(){
+			$('#btnFadeOut').click(function(){
+				$('#box').fadeOut(3000, function(){
+					$('#btnFadeOut').text('Its Gone');
+				});
+			});// fade in
+			$('#btnFadeIn').click(function(){
+				$('#box').fadeIn(3000);
+			});//fad toggle
+			$('#btnFadeTog').click(function(){
+				$('#box').fadeToggle(1000);
+			});
+        //Jquery animation sliding
+        //slide down
+			$('#btnSlideDown').click(function(){
+				$('#box').slideDown(3000);
+			});//side up
+			$('#btnSlideUp').click(function(){
+				$('#box').slideUp(3000);
+			});//slide toggle 
+			$('#btnSlideTog').click(function(){
+				$('#box').slideToggle(3000);
+			});// slide stop
+			$('#btnStop').click(function(){
+				$('#box').stop();
+			});
+//  Jquery animation slide move
+			$('#moveRight').click(function(){//move rigth
+				$('#box2').animate({
+					left: 500,
+					height: '300px',
+					width:'300px',
+					opacity: '0.5'
+				});
+			});
+//move left
+			$('#moveLeft').click(function(){
+				$('#box2').animate({
+					left: 0,
+					height: '100px',
+					width: '100px',
+					opacity:'1'
+				});
+			});
+//move around
+			$('#moveAround').click(function(){
+				var box = $('#box2');
+				box.animate({
+					left: 300
+				});
+				box.animate({
+					top: 300
+				});
+				box.animate({
+					left:0,
+					top: 300
+				});
+				box.animate({
+					left: 0,
+					top:0
+				});
+			});
+		});
+	</script>
+    <header>
+		<h1>jQuery - Chaining</h1>
+        </header>
+        <p id="p1">jQuery is fun!!</p>
+
+<button>Click me</button>
+
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
+          });
+        });
+        </script>
+        
+</body>
+</html>
