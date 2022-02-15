@@ -34,3 +34,14 @@ header{
     height:100px;
     position:relative;
 }
+
+
+.p2 {
+    width: 200px;
+	padding: 40px 0;
+	font: bold 24px sans-serif;
+	text-align: center;
+    background: #aaccaa;
+    border: 1px solid #63a063;
+    box-sizing: border-box;
+}
