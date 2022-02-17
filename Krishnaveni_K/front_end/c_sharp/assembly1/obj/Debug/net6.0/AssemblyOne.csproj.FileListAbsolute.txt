@@ -1,0 +1,5 @@
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\c_sharp\assembly1\obj\Debug\net6.0\AssemblyOne.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\c_sharp\assembly1\obj\Debug\net6.0\AssemblyOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\c_sharp\assembly1\obj\Debug\net6.0\AssemblyOne.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\c_sharp\assembly1\obj\Debug\net6.0\AssemblyOne.AssemblyInfo.cs
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\c_sharp\assembly1\obj\Debug\net6.0\AssemblyOne.csproj.CoreCompileInputs.cache
