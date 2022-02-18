@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Documents\\DLithe\\DLithe_DotnetFSD_JanFeb2022\\Krishnaveni_K\\front_end\\c_sharp\\task1\\task1.csproj",
-      "projectName": "task1",
-      "projectPath": "C:\\Users\\DELL\\Documents\\DLithe\\DLithe_DotnetFSD_JanFeb2022\\Krishnaveni_K\\front_end\\c_sharp\\task1\\task1.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Documents\\DLithe\\DLithe_DotnetFSD_JanFeb2022\\Krishnaveni_K\\front_end\\C_Sharp\\Task1\\Task1.csproj",
+      "projectName": "Task1",
+      "projectPath": "C:\\Users\\DELL\\Documents\\DLithe\\DLithe_DotnetFSD_JanFeb2022\\Krishnaveni_K\\front_end\\C_Sharp\\Task1\\Task1.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Documents\\DLithe\\DLithe_DotnetFSD_JanFeb2022\\Krishnaveni_K\\front_end\\c_sharp\\task1\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Documents\\DLithe\\DLithe_DotnetFSD_JanFeb2022\\Krishnaveni_K\\front_end\\C_Sharp\\Task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
