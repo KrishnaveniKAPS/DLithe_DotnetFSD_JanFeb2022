@@ -1,0 +1,15 @@
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\bin\Debug\net6.0\Task05.exe
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\bin\Debug\net6.0\Task05.deps.json
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\bin\Debug\net6.0\Task05.runtimeconfig.json
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\bin\Debug\net6.0\Task05.dll
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\bin\Debug\net6.0\Task05.pdb
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.AssemblyInfo.cs
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.dll
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\refint\Task05.dll
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.pdb
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\Task05.genruntimeconfig.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task05\obj\Debug\net6.0\ref\Task05.dll
