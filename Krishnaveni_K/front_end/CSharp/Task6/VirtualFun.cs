@@ -56,6 +56,7 @@ namespace VirtualExample
         static void Main(string[] args)
         {
             double distance, hour, fuel = 0.0;
+            Console.WriteLine("------Virtual functions------");
             Console.WriteLine("Enter the Distance");
             distance = Double.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Hours");
