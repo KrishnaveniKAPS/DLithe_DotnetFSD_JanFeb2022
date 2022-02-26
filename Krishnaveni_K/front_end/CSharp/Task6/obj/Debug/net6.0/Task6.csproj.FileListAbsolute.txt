@@ -1,0 +1,15 @@
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.AssemblyInfo.cs
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\bin\Debug\net6.0\Task6.exe
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\bin\Debug\net6.0\Task6.deps.json
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\bin\Debug\net6.0\Task6.runtimeconfig.json
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\bin\Debug\net6.0\Task6.dll
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\bin\Debug\net6.0\Task6.pdb
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.dll
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\refint\Task6.dll
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.pdb
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\Task6.genruntimeconfig.cache
+C:\Users\DELL\Documents\DLithe\DLithe_DotnetFSD_JanFeb2022\Krishnaveni_K\front_end\CSharp\Task6\obj\Debug\net6.0\ref\Task6.dll
